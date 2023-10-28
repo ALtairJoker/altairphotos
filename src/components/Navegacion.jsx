@@ -33,7 +33,7 @@ export default function Navegacion() {
             <NavLink to="/" className={setActiveClass}>
               <p className="deco me-5">Inicio</p>
             </NavLink>
-            <NavLink to="/home" className={setActiveClass}>
+            <NavLink to="/portafolio" className={setActiveClass}>
               <p className="deco me-5">Portafolio</p>
             </NavLink>
             <NavLink to="/contacto" className={setActiveClass}>

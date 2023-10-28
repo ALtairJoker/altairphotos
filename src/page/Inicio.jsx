@@ -9,7 +9,7 @@ function Inicio() {
     <main className="contenedorInicio">
       <h1 className="titulo">Altair Photos</h1>
       <h3>Tu fuente de fotografía creativa</h3>
-      <button onClick={() => navigate("/home")}>
+      <button onClick={() => navigate("/portafolio")}>
         <span>Ir al Portafolio</span>
       </button>
     </main>

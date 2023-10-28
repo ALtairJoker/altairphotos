@@ -2,7 +2,7 @@ import React from "react";
 import "./css/home.css";
 import { useNavigate } from "react-router-dom";
 
-function Home() {
+function Portafolio() {
   const navigate = useNavigate();
 
   return (
@@ -215,4 +215,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Portafolio;
