@@ -1,0 +1,84 @@
+
+body {
+    background-color: #113946;
+    margin: 0;
+    padding: 0;
+    color: #BCA37F;
+}
+
+.contenedorPortafolio{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+    text-align: center;
+}
+
+/* Agregar un espacio en los laterales */
+.izquierda {
+    padding-right: 10em; /* Ajusta el valor según el espacio que desees en el lado derecho */
+}
+
+.derecha {
+    padding-left: 10em; /* Ajusta el valor según el espacio que desees en el lado izquierdo */
+}
+
+
+.foto{
+    width: 70%;
+    border-radius: 30% 70% 62% 38% / 27% 33% 67% 73% ;  
+    box-shadow: -20px 24px 9px -6px rgba(0,0,0,0.3);
+}
+
+.oculto{
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .contenedorVisible {
+        display: none;
+      }
+
+      .oculto {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .ocultoDiv{
+        margin-bottom: 3em;
+        margin-top: 1em;
+      }
+
+      .foto1{
+        margin-top: 10em;
+      }
+        
+
+  
+  }
+  
+  @media (max-width: 768px) {
+
+    .oculto {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .ocultoDiv{
+        margin-bottom: 3em;
+        margin-top: 1em;
+      }
+
+      .foto1{
+        margin-top: 10em;
+      }
+  
+    .contenedorVisible {
+        display: none;
+      }
+
+  }

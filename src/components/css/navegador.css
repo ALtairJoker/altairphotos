@@ -1,0 +1,51 @@
+*{
+    font-family: 'Prime', sans-serif;      
+  }
+  
+  .logoNav {
+    height: 3em;
+    border-radius: 8px;
+    margin-right: 8px;
+  }
+  
+  .activo {
+    color: #113946;;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: #113946;
+  }
+  
+  .activo:hover{
+    color: #113946;
+  }
+  
+  .deco {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Prime', sans-serif;                                        
+  }
+  
+  .deco:hover{
+    text-shadow: #BCA37F 1px 0 10px;
+  }
+  
+  .inactivo {
+    color: #BCA37F;
+    text-decoration: none;
+  }
+  
+  .inactivo:hover{
+    color: #BCA37F;
+  }
+  
+  .titulo{
+    font-family: 'Besttia Brush', sans-serif;     
+  }
+
+  .logoAguila{
+    width: 1.5em;
+    color: #113946;
+  }
+
+
+  
